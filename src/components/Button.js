@@ -8,7 +8,7 @@ export default function Button(props) {
       "button--confirm": props.confirm,
       "button--danger": props.danger
    })
-   // classNames("button", { ...confirm, danger...} alternative to line 7
+   // classNames("button", { ...confirm, danger...} alternative to line 6,7
  
    return (
       <button
