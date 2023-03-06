@@ -39,3 +39,20 @@ export function getInterview(state, interview) {
   return interviewObj;
   // returns obj of interview
 }
+
+export function getInterviewersForDay(state, day) {
+  const theDayInterviewers = [];
+
+  for(const day1 of state.days) {
+    if(day === day1.name) {
+      const interviewers = day1.interviewers;
+
+      for(const interviewer of interviewers) {
+        theDayInterviewers.push(state.interviewers[interviewer]);
+      }
+    }
+  }
+
+  return theDayInterviewers;
+  //... returns an array of interviewers for that day
+}
