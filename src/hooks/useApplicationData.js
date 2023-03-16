@@ -44,7 +44,6 @@ export default function useApplicationData () {
     };
     const days = updateSpots(appointments);
 
-    console.log("appointments", appointments)
     return axios.put(`/api/appointments/${id}`, {interview})
     .then(() => {
       setState({
