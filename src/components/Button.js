@@ -8,7 +8,6 @@ export default function Button(props) {
       "button--confirm": props.confirm,
       "button--danger": props.danger
    })
-   // classNames("button", { ...confirm, danger...} alternative to line 6,7
  
    return (
       <button
@@ -19,4 +18,4 @@ export default function Button(props) {
          {props.children}
       </button>
    ); 
-}
+};
