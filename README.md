@@ -24,11 +24,11 @@ npm run storybook
 ```
 ## Screenshots
 
-The main page of the app
+The main page of the app.
 !["The main page of the app"](https://github.com/zachmanac/scheduler/blob/master/docs/scheduler-main-page.jpg?raw=true)
 
-The add interview form
+The add interview form.
 !["The add interview form"](https://github.com/zachmanac/scheduler/blob/master/docs/scheduler-add-interview.jpg?raw=true)
 
-The cancel interview confirmation screen
+The cancel interview confirmation screen.
 !["The cancel interview confirmation screen"](https://github.com/zachmanac/scheduler/blob/master/docs/scheduler-delete-page.jpg?raw=true)
