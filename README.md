@@ -1,4 +1,5 @@
 # Interview Scheduler
+This project is a scheduling tool that allows booking, editing, and deleting of interviews.
 
 ## Setup
 
@@ -21,3 +22,4 @@ npm test
 ```sh
 npm run storybook
 ```
+## Screenshots
