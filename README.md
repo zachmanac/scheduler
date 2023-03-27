@@ -5,6 +5,8 @@ This project is a scheduling tool that allows booking, editing, and deleting of 
 
 Install dependencies with `npm install`.
 
+This project uses the [scheduler-api](https://github.com/lighthouse-labs/scheduler-api) repository as a backend server. Please fork and clone this repo. Refer to documentation in `scheduler-api` to set it up.
+
 ## Running Webpack Development Server
 
 ```sh
